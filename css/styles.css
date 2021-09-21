@@ -1,0 +1,208 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+}
+
+a {
+  color: #11999E;
+  margin: 20px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+h1 {
+  color: #66BED2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.3rem;
+}
+
+/* Old Horizontal Rule Before Bootstrap 5 */
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+.planet-img {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.top-container {
+  background-color: #F4F9F9;
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+
+.intro {
+  margin: auto;
+  width: 25%;
+}
+
+.subtitle {
+  color: #66BED2;
+  font-size: 1.5rem;
+}
+
+.skill-row {
+  margin: 50px auto 50px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 425px;
+  top: 75px;
+  height: 128px;
+  width: 128px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+  height: 128px;
+  width: 128px;
+}
+
+.codingicon {
+  float: left;
+  margin-right: 20px;
+}
+
+.psychologyicon {
+  float: right;
+  margin-left: 20px;
+}
+
+.contactmessage {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-left: 20px 0;
+}
+
+/* Horizontal Rule */
+.astrodivider {
+  margin:64px auto;
+  width:400px;
+  max-width: 100%;
+  position:relative;
+}
+
+.astrodividermask {
+    overflow:hidden; height:20px;
+}
+
+.astrodividermask:after {
+      content:'';
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px #049372;
+}
+.astrodivider span {
+    width:50px; height:50px;
+    position:absolute;
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px #4fb39c;
+    background:#fff;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #68beaa;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+     color:#049372;
+}
+
+ /* Contact Me Button */
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   -webkit-box-shadow: 1px 0 7px 0 #000000;
+   -moz-box-shadow: 1px 0 7px 0 #000000;
+   box-shadow: 1px 0 7px 0 #000000;
+   text-shadow: 1px 1px 7px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: dashed #2BC4AD 0;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
